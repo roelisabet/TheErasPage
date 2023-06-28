@@ -1,0 +1,488 @@
+@mixin flex ($direction){
+    direction: $direction;
+}
+
+.footerconteiner {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .footerconteiner {
+        background-color: purple;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footerconteiner {
+        background-color: black;
+    }
+}
+.orden {
+
+    background-color: antiquewhite;
+}
+@media screen and (max-width: 768px) {
+    .orden{
+        color: rgb(188, 49, 72);
+        background-color: aquamarine;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .orden{
+        color: azure;
+        background-color: crimson;
+    }
+}
+.centrando {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (max-width: 768px) {
+    .centrando {
+        @include flex(column);
+        color: blue;
+        background-color: aqua;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .centrando {
+        @include flex(column);
+        color: azure;
+        background-color: blueviolet;
+
+    }
+}
+.section {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+    padding: 40px;
+
+    border-radius: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .section {
+        @include flex(column);
+        width: 100%;
+        background-color: rgb(114, 184, 114);
+    }
+}
+
+.debut {
+    width: 20%;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .debut {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .debut {
+        width: 100%;
+    }
+}
+
+
+.parrafo {
+    @include flex(column);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+@media screen and (max-width: 768px) {
+    .parrafo {
+        flex-wrap: wrap;
+    }
+}
+
+
+.section1 {
+    background-color: rgb(207, 207, 133);
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 40px;
+    border-radius: 20px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .section1 {
+        @include flex(column);
+        width: 100%;
+        background-color: yellow;
+    }
+}
+
+.fearless {
+    width: 20%;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .fearless {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .fearless {
+        width: 100%;
+    }
+}
+
+.section2 {
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 40px;
+    border-radius: 20px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .section2 {
+        @include flex(column);
+        width: 100%;
+        background-color: violet;
+    }
+}
+
+.speak {
+    width: 20%;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .speak {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .speak {
+        width: 100%;
+    }
+}
+
+.section3 {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 40px;
+    border-radius: 20px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .section3 {
+        @include flex(column);
+        width: 100%;
+        background-color: rgb(94, 17, 17);
+    }
+}
+
+.red {
+    width: 20%;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .red {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .red {
+        width: 100%;
+    }
+}
+
+.section4 {
+    background-color: rgb(73, 197, 197);
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .section4 {
+        @include flex(column);
+        width: 100%;
+        background-color: aqua;
+    }
+}
+
+.nine {
+    width: 20%;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .nine {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nine {
+        width: 100%;
+    }
+}
+
+.section5 {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 40px;
+    border-radius: 20px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .section5 {
+        @include flex(column);
+        width: 100%;
+        background-color: rgb(109, 102, 102);
+    }
+}
+
+.reputation {
+    width: 20%;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .reputation {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .reputation {
+        width: 100%;
+    }
+}
+
+.section6 {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .section6 {
+        @include flex(column);
+        width: 100%;
+        background-color: palevioletred;
+    }
+}
+
+.lover {
+    width: 20%;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .lover {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .lover {
+        width: 100%;
+    }
+}
+
+.section7 {
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .section7 {
+        @include flex(column);
+        width: 100%;
+        background-color: rgb(69, 8, 8);
+    }
+}
+
+.folklore {
+    width: 20%;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .folklore {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .folklore {
+        width: 100%;
+    }
+}
+
+.section8 {
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+    padding: 40px;
+
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .section8 {
+        @include flex(column);
+        width: 100%;
+        background-color: rgb(144, 144, 60);
+    }
+}
+
+.tv {
+    width: 20%;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .tv {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tv {
+        width: 100%;
+    }
+}
+
+.section9 {
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+    padding: 40px;
+
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .section9 {
+        @include flex(column);
+        width: 100%;
+        background-color: blue;
+    }
+}
+
+.midnights {
+    width: 20%;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .midnights {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .midnights {
+        width: 100%;
+    }
+}
+
+.prebelde {
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+.color {
+    background-color: beige;
+}
+@media screen and (max-width: 768px) {
+    .color {
+        color: rgb(188, 49, 72);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .color{
+        color: azure;
+    }
+}
+
+.img{
+    width: 100%;
+}
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+.column.img{
+    margin-top: 5px;
+}
+@media screen and (max-width: 768px) {
+    .column{
+        flex: 100%;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .column{
+        flex: 50%;
+    }
+}
+#galeria{
+    background-color: beige;
+}
+@media screen and (max-width: 768px) {
+    #galeria {
+        background-color: rgb(37, 28, 143);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #galeria{
+        background-color: rgb(9, 58, 58);
+    }
+}
