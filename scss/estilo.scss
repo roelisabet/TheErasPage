@@ -67,7 +67,7 @@ h1 {
     font-weight: bolder;
     text-align: center;
     text-decoration: underline;
-    margin: 50px 100px;
+    margin: 50px 0px;
     color: black;
 }
 
@@ -78,70 +78,6 @@ a {
 
 #FondoBeige {
     background-color: beige;
-}
-
-.LetraVerde {
-    color: rgb(4, 82, 4);
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    font-size: 20px;
-}
-
-.LetraAmarilla {
-    color: rgb(159, 159, 9);
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    font-size: 20px;
-}
-
-.LetraVioleta {
-    color: purple;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    font-size: 20px;
-}
-
-.LetraRoja {
-    color: red;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    font-size: 20px;
-}
-
-.LetraAzul {
-    color: blue;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    font-size: 20px;
-}
-
-.LetraNegra {
-    color: black;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    font-size: 20px;
-}
-
-.LetraFucsia {
-    color: rgb(191, 18, 133);
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    font-size: 20px;
-}
-
-.LetraBordo {
-    color: rgb(117, 8, 8);
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    font-size: 20px;
 }
 
 ul {
@@ -205,7 +141,8 @@ h3 {
     text-decoration: underline;
     text-align: center;
     margin-top: $fuenteGrande;
-    background-color: beige;
+    background-color: rgb(178, 167, 180);
+    
 }
 
 #padding {
@@ -213,7 +150,7 @@ h3 {
     margin-bottom: $fuenteGrande;
     padding: 10px 20px;
     background-color: beige;
-    color: green;
+    color: purple;
 }
 
 #colores {
@@ -233,30 +170,54 @@ h3 {
     color: black;
 }
 
-.d-block {
-    width: 50%;
-    height: 650px;
 
+.d-block{
+    height: 100%;
+    width: 50%;
 }
 
+
+.d-img{
+    height: 100%;
+    object-fit: cover;
+    
+}
 .carousel-inner {
-    background-color: rgb(89, 87, 87);
+    background-color: rgb(178, 167, 180);
+    
+
+}
+.ciudad{
+    background-color:  rgb(178, 167, 180);
+}
+.fechas{
+    background-color:  rgb(101, 73, 106);
 }
 
 .input {
     height: 25px;
     color: black;
-    background-color: aqua;
+    background-color: rgb(215, 129, 204);
+    padding: 0%;
 }
+.inputs{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%
+    
+    }
+
 
 .input--email {
     @extend .input;
-    background-color: rgb(42, 141, 141);
+    background-color: rgb(113, 32, 104);
 }
 
 .input--password {
     @extend.input;
-    background-color: rgb(69, 236, 236);
+    background-color: rgb(175, 69, 169);
 }
 
 
@@ -304,4 +265,14 @@ h3 {
 
 .btn-4:hover::before{
     background-position: 100%;
+}
+
+form{
+    border-radius: 20px;
+    padding: 50px 10px;
+}
+
+.galeria{
+    background-color: rgb(203, 180, 184);
+    width: 100%;
 }

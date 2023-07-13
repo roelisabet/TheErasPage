@@ -21,6 +21,7 @@
 .orden {
 
     background-color: antiquewhite;
+    color: aliceblue;
 }
 @media screen and (max-width: 768px) {
     .orden{
@@ -57,11 +58,26 @@
 
     }
 }
+
+.queson{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(122, 59, 122);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.poster{
+    height: 100%;
+    width: 40%;
+}
 .section {
     background-color: green;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
 
     padding: 40px;
 
@@ -114,7 +130,7 @@
     background-color: rgb(207, 207, 133);
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
     padding: 40px;
     border-radius: 20px;
 
@@ -149,7 +165,7 @@
     background-color: purple;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
     padding: 40px;
     border-radius: 20px;
 
@@ -184,7 +200,7 @@
     background-color: red;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
     padding: 40px;
     border-radius: 20px;
 
@@ -219,7 +235,7 @@
     background-color: rgb(73, 197, 197);
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
     padding: 40px;
     border-radius: 20px;
 }
@@ -253,7 +269,7 @@
     background-color: black;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
     padding: 40px;
     border-radius: 20px;
 
@@ -288,7 +304,7 @@
     background-color: pink;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
     padding: 40px;
     border-radius: 20px;
 }
@@ -322,7 +338,7 @@
     background-color: brown;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
     padding: 40px;
     border-radius: 20px;
 }
@@ -356,7 +372,7 @@
     background-color: yellowgreen;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
 
     padding: 40px;
 
@@ -392,7 +408,7 @@
     background-color: darkblue;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
 
     padding: 40px;
 
@@ -410,6 +426,7 @@
 .midnights {
     width: 20%;
     border-radius: 30px;
+    color: aliceblue;
 }
 
 @media screen and (max-width: 768px) {
@@ -435,7 +452,7 @@
 }
 @media screen and (max-width: 768px) {
     .color {
-        color: rgb(188, 49, 72);
+        color:rgb(127, 195, 195);
     }
 }
 
@@ -485,4 +502,77 @@
     #galeria{
         background-color: rgb(9, 58, 58);
     }
+}
+
+
+
+
+.tour {
+    width: 100%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .tour {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tour {
+        width: 100%;
+    }
+}
+
+
+
+
+
+#colores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.trailer{
+    display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .trailer{
+        flex-direction: row;
+        width: 100%;
+        background-color: rgb(129, 143, 85);
+    }
+}
+@media screen and (max-width: 480px) {
+    .trailer {
+        width: 100%;
+    }
+}
+
+.texto {
+
+    padding: 20px;
+    text-align: justify;
+}
+
+.texto h3 {
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 100%;
 }
