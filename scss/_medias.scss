@@ -94,7 +94,7 @@
 }
 
 .debut {
-    width: 20%;
+    width: 200px;
     border-radius: 30px;
 }
 
@@ -145,7 +145,7 @@
 }
 
 .fearless {
-    width: 20%;
+    width: 200px;
     border-radius: 30px;
 }
 
@@ -180,7 +180,7 @@
 }
 
 .speak {
-    width: 20%;
+    width: 200px;
     border-radius: 30px;
 }
 
@@ -215,7 +215,7 @@
 }
 
 .red {
-    width: 20%;
+    width: 200px;
     border-radius: 30px;
 }
 
@@ -227,7 +227,7 @@
 
 @media screen and (max-width: 480px) {
     .red {
-        width: 100%;
+        width: 185px;
     }
 }
 
@@ -249,7 +249,7 @@
 }
 
 .nine {
-    width: 20%;
+    width: 200px;
     border-radius: 30px;
 }
 
@@ -284,7 +284,7 @@
 }
 
 .reputation {
-    width: 20%;
+    width: 200px;
     border-radius: 30px;
 }
 
@@ -318,7 +318,7 @@
 }
 
 .lover {
-    width: 20%;
+    width: 200px;
     border-radius: 30px;
 }
 
@@ -346,13 +346,14 @@
 @media screen and (max-width: 768px) {
     .section7 {
         @include flex(column);
+        justify-content: space-between;
         width: 100%;
         background-color: rgb(69, 8, 8);
     }
 }
 
 .folklore {
-    width: 20%;
+    width: 200px;
     border-radius: 30px;
 }
 
@@ -364,7 +365,7 @@
 
 @media screen and (max-width: 480px) {
     .folklore {
-        width: 100%;
+        width: 25%;
     }
 }
 
@@ -388,7 +389,7 @@
 }
 
 .tv {
-    width: 20%;
+    width: 200px;
     border-radius: 30px;
 }
 
@@ -400,7 +401,7 @@
 
 @media screen and (max-width: 480px) {
     .tv {
-        width: 100%;
+        width: 25%;
     }
 }
 
@@ -424,7 +425,7 @@
 }
 
 .midnights {
-    width: 20%;
+    width: 200px;
     border-radius: 30px;
     color: aliceblue;
 }
@@ -442,8 +443,8 @@
 }
 
 .prebelde {
-    font-size: 30px;
-    padding: 20px;
+    font-size: 25px;
+    padding: 22px;
 
 }
 
@@ -462,9 +463,6 @@
     }
 }
 
-.img{
-    width: 100%;
-}
 .row{
     display: flex;
     padding: 5px;
@@ -474,8 +472,11 @@
     flex: 25%;
     padding: 5px;
 }
-.column.img{
+.column img{
+    width: 80%;
+    height: 30%;
     margin-top: 5px;
+    padding-right: 10px;
 }
 @media screen and (max-width: 768px) {
     .column{
@@ -511,8 +512,11 @@
     width: 100%;
     border-radius: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+
     
 }
 
@@ -531,14 +535,6 @@
 
 
 
-
-#colores {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
 
 .trailer{
     display: flex;
@@ -575,4 +571,20 @@ iframe {
     width: 100%;
     max-width: 560px;
     height: 100%;
+}
+.dates img{
+    width: 800px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+    .dates img{
+        flex-direction: row;
+        width: 520px;
+        background-color: rgb(129, 143, 85);
+    }
+}
+@media screen and (max-width: 480px) {
+    .dates img {
+        width: 450px;
+    }
 }
